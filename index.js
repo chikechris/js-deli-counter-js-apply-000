@@ -11,8 +11,17 @@ function isServing(myDeli) {
   else{'Currently serving' + myDeli.shift(); }
 }
 
+
+var theLine = [];
+
 function currLine(myDeli) {
-  if(!myDeli.length) {
-    return 'The line is currntly empty';
+  let i = 0;
+  while (i < myDeli.length) {
+    line.push(` `+[i+1]+`. `  + myDeli[i])
+    i++;
   }
+  if (myDeli.length === 0) {
+    return "The line is currently empty.";
+  } else
+  return(`The line is currently:` + theLine);
 }
