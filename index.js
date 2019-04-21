@@ -11,4 +11,8 @@ function isServing(myDeli) {
   else{'Currently serving' + myDeli.shift(); }
 }
 
-function c
+function currLine(myDeli) {
+  if(!myDeli.length) {
+    return 'The line is currntly empty';
+  }
+}
