@@ -8,5 +8,5 @@ function getANumber(myDeli, custName) {
 function isServing(myDeli) {
   if(!myDeli.length) {
     return 'There are no customers to be served'} 
-    else{Currently serving }
+  else{'Currently serving' + myDeli.shift(); }
 }
