@@ -6,11 +6,16 @@ function takeANumber(myDeli, custName) {
 }
 
 function nowServing(myDeli) {
-  if(!myDeli.length) {
-    return 'There are no customers to be served'} 
-  else{'Currently serving' + myDeli.shift(); }
+  let i = 0;
+  while (i < myDeli.length) {
+    i++;
+  }
+  if (myDeli.length === 0) {
+    return "There is nobody waiting to be served!";
+  }
+  else
+  return (`Currently serving ${myDeli.shift()}.`);
 }
-
 
 var theLine = [];
 
