@@ -11,4 +11,4 @@ function isServing(myDeli) {
   else{'Currently serving' + myDeli.shift(); }
 }
 
-function 
+function c
