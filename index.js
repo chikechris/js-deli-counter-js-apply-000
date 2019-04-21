@@ -1,3 +1,5 @@
 var myDeli = [];
 
-function 
+function getANumber(theLine, custName) {
+  
+}
