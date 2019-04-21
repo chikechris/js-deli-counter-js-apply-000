@@ -14,7 +14,7 @@ function nowServing(myDeli) {
 
 var theLine = [];
 
-function currLine(myDeli) {
+function currentLinee(myDeli) {
   let i = 0;
   while (i < myDeli.length) {
     theLine.push(` `+[i+1]+`. `  + myDeli[i])
