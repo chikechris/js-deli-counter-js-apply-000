@@ -10,3 +10,5 @@ function isServing(myDeli) {
     return 'There are no customers to be served'} 
   else{'Currently serving' + myDeli.shift(); }
 }
+
+function 
