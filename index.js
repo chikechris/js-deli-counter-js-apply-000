@@ -2,7 +2,7 @@ var myDeli = [];
 
 function takeANumber(myDeli, custName) {
   myDeli.push(`${custName}`);
-  return (`Welcome, ${custName}. Your number in line is ${myDeli.length}.`)
+  return (`Welcome, ${custName}. Your number in line is ${myDeli.length}.`);
 }
 
 function nowServing(myDeli) {
