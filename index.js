@@ -1,5 +1,6 @@
 var katzDeli = []; // At the start of the day,
-//there are no customers and this is represented by an empty array
+//there are no customers and this is represented by an empty
+//array
 
 function takeANumber(katzDeli, name) {
   katzDeli.push(`${name}`);
