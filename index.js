@@ -17,7 +17,7 @@ var theLine = [];
 function currLine(myDeli) {
   let i = 0;
   while (i < myDeli.length) {
-    line.push(` `+[i+1]+`. `  + myDeli[i])
+    theLine.push(` `+[i+1]+`. `  + myDeli[i])
     i++;
   }
   if (myDeli.length === 0) {
